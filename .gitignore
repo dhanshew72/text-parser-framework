@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore pycharm file
+.idea
+
+# Ignore generated CF deployment file
+deployment/packaged.yaml

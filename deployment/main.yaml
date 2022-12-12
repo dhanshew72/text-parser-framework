@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Creates all nested stacks
+Resources:
+  S3LambdaStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: events/s3tolambda.yaml
